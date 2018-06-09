@@ -9,7 +9,7 @@ int main(){
   for(i=0;count>1;i++){ 
     //use ‘count’ ensure the monkey's amount 
     if(a[i%m]!=0) 
-    //（i%m）————（0~~m-1）ensure the monkey's amount 
+     //（i%m）————（0~~m-1）ensure the monkey's amount 
        x++;
     if(x%n==0&&a[i%m]!=0){
        //go (m-1) times a[i%m]=0; 
